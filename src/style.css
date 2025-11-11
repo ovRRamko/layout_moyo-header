@@ -35,7 +35,7 @@ html {
   margin-right: 20px;
 }
 
-li:last-child {
+.nav__li:last-child {
   margin-right: 0;
 }
 
@@ -65,6 +65,6 @@ li:last-child {
   margin-bottom: 0;
 }
 
-[data-qa='hover']:hover {
+.nav__link:hover {
   color: var(--main-color);
 }
